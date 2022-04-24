@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lobster', cursive;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+
+/* HEADER */
+
+.site-header {
+	background-color: rgba(0, 0, 0, .85);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	height: 80px;
+}
+
+.site-header a {
+	color: #8e8e8e;
+	transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* HEADER */
+
+
+/******CODE CARD*******/
+
+.card {
+	width: 110px;
+	height: 115px;
+	padding: 1px 1px;
+	margin: 6px 5px;
+	display: inline-block;
+	border-radius: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	background-position: center;
+	background-size: cover;
+}
+
+#verification-icon {
+	width: 15px;
+	margin-left: 90px;
+}
+
+.card1 {
+	background-image: url(../imgs/tiwtiw.jpeg);
+}
+
+.card2 {
+	background-image: url(../imgs/badr.jpeg);
+}
+
+.card3 {
+	background-image: url(../imgs/toto.jpg);
+}
+
+.card4 {
+	background-image: url(../imgs/nouaman.jpg);
+}
+
+.card5 {
+	background-image: url(../imgs/7liwa.jpg);
+}
+
+.card6 {
+	background-image: url(../imgs/zoubir.jpg);
+}
+
+.card7 {
+	background-image: url(../imgs/douzi.jpg);
+}
+
+.card8 {
+	background-image: url(../imgs/salma.jfif);
+}
+
+.card9 {
+	background-image: url(../imgs/big.jpg);
+}
+
+.card10 {
+	background-image: url(../imgs/soolking.jpg);
+}
+
+.card11 {
+	background-image: url(../imgs/dizzy.jfif);
+}
+
+.card12 {
+	background-image: url(../imgs/muslim.png);
+}
+
+.card13 {
+	background-image: url(../imgs/rajae.jpg);
+}
+
+.card14 {
+	background-image: url(../imgs/omar.jfif);
+}
+
+.card15 {
+	background-image: url(../imgs/zouhir.png);
+}
+
+.card16 {
+	background-image: url(../imgs/saad.jpg);
+}
+
+.card17 {
+	background-image: url(../imgs/ibtissam.jpg);
+}
+
+.card18 {
+	background-image: url(../imgs/7toun.jpg);
+}
+
+.card19 {
+	background-image: url(../imgs/alisamid.jpg);
+}
+
+.card20 {
+	background-image: url(../imgs/cravata.jpg);
+}
+
+.card21 {
+	background-image: url(../imgs/inkonnu.jpg);
+}
+
+.card22 {
+	background-image: url(../imgs/lbenj.jpg);
+}
+
+.card23 {
+	background-image: url(../imgs/mrcrazy.jpg);
+}
+
+.card24 {
+	background-image: url(../imgs/snor.png);
+}
+
+.card25 {
+	background-image: url(../imgs/tagne.png);
+}
+
+.card26 {
+	background-image: url(../imgs/tflow.jpg);
+}
+
+
+/******FIN CODE CARD*******/
+
+hr {
+	background-color: bisque;
+	color: bisque;
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid bisque;
+	margin: 10px;
+}
+
+.container {
+	height: 650px;
+	width: 100%;
+}
+
+.btn-custom {
+	background: bisque;
+	border-color: bisque;
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+	width: 200px;
+}
+
+.login-container {
+	min-height: 80vh;
+	border-radius: 50px;
+	width: 100%;
+}
+
+.login-form {
+	margin: auto;
+	width: 450px;
+	padding: 15px;
+	max-width: 100%;
+	position: relative;
+	border-radius: 5px;
+	z-index: 0;
+	overflow: hidden;
+}
+
+.login-form .form-control {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.login-form a {
+	color: #666;
+}
+
+.login-form a:hover {
+	color: white;
+}
+
+.forgot-link {
+	font-size: 13px;
+}
+
+.form-control:focus {
+	border-color: bisque;
+	box-shadow: 0 0 0 0.2rem bisque;
+}
+
+p {
+	color: bisque;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0.10rem;
+	border-radius: 50%;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: 0.3s;
+}
+
+.social-icon:hover {
+	text-decoration: none;
+}
+
+.social-text {
+	padding: 0.7rem 0;
+	font-size: 1rem;
+}
+
+.input-field {
+	max-width: 450px;
+	width: 100%;
+	background-color: white;
+	margin: 10px 0;
+	height: 50px;
+	border-radius: 55px;
+	display: grid;
+	grid-template-columns: 15% 85%;
+	padding: 0 0.4rem;
+	position: relative;
+}
+
+.input-field i {
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	transition: 0.5s;
+	font-size: 1.1rem;
+}
+
+.input-field input {
+	background: none;
+	outline: none;
+	border: none;
+	width: 270px;
+	line-height: 1;
+	font-weight: 500;
+	font-size: 1rem;
+	color: black;
+}
+
+.input-field input::placeholder {
+	color: black;
+	font-weight: 500;
+}
+
+#eye-wrapper {
+	color: bisque;
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	transform: translate(0, -50%);
+	top: 50%;
+	right: 15px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1;
+	transition: 0.5s;
+}
+
+#open,
+#close {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0.5px;
+	width: 25px;
+}
+
+#open {
+	display: none;
+}
